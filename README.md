@@ -44,3 +44,12 @@ Quick start
       $ python compute_correlations.py
       $ python TSTR_evaluation.py
 
+Attribution
+-----------
+
+This project includes code adapted from:
+
+- [DiffWave](https://github.com/lmnt-com/diffwave) – Apache License 2.0
+- [CSDI](https://github.com/ermongroup/CSDI) – MIT License
+- [MNISTDiffusion](https://github.com/bot66/MNISTDiffusion) – MIT License
+
