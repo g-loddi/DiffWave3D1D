@@ -1,0 +1,10 @@
+This project includes code adapted from the following sources:
+
+- DiffWave: https://github.com/lmnt-com/diffwave
+  Licensed under the Apache License, Version 2.0
+
+- CSDI: https://github.com/ermongroup/CSDI
+  Licensed under the MIT License
+
+- MNISTDiffusion: https://github.com/bot66/MNISTDiffusion
+  Licensed under the MIT License
