@@ -1,8 +1,9 @@
 DiffWave3D1D  –  code overview
 =================================
+Official implementation of the paper: A Conditional Generative Diffusion Model for Spatio-Temporal Data
 
-The repository contains all the code that accompanies the paper
-“A Conditional Generative Diffusion Model for Spatio-Temporal Data”.
+Accepted at ECAI 2025
+Authors: Giulio, Alessandro Betti, Fabio Pinelli
 
 File descriptions
 --------------------
