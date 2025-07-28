@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+matplotlib==3.8.4
+tqdm==4.66.2
+torch==2.2.2
+torchsummary==1.5.1
+scikit-image==0.22.0
+pyarrow==15.0.2
+lmdb==1.4.1
+wandb==0.16.6

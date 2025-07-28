@@ -1,0 +1,70 @@
+{
+    "common_config": {
+        "sequence_length": 96,
+        "in_channels": 1,
+        "timesteps": 50
+    },
+    "model_configs": {
+        "diffwave1d": {
+            "image_size": 16,
+            "batch_size": 128,
+            "residual_channels": 32,
+            "residual_layers": 5,
+            "dilation_cycle_length": 5
+        },
+        "diffwave3d": {
+            "image_size": 16,
+            "batch_size": 128,
+            "residual_channels": 32,
+            "residual_layers": 5,
+            "dilation_cycle_length": 5
+        },
+        "diffwave3d1d": {
+            "image_size": 16,
+            "batch_size": 128,
+            "residual_channels": 32,
+            "residual_layers": 5,
+            "dilation_cycle_length": 5
+        },
+        "diffwave3d1d_64": {
+            "image_size": 16,
+            "batch_size": 64,
+            "residual_channels": 64,
+            "residual_layers": 5,
+            "dilation_cycle_length": 5
+        },
+        "csdi": {
+            "image_size": 16,
+            "batch_size": 32,
+            "nheads": 4,
+            "residual_channels": 32,
+            "residual_layers": 4
+        }
+    },
+    "training_config": {
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0001,
+        "model_ema_steps": 10,
+        "model_ema_decay": 0.995,
+        "log_freq": 10,
+        "sampling_freq": 10,
+        "n_evaluations": 10,
+        "evaluation_subintervals": 10,
+        "guidance_dropout": 0.1
+    },
+    "dataset_config": {
+        "scaling": "minmax",
+        "log_transform": true,
+        "threshold": 5,
+        "use_precomputed": true
+    },
+    "runtime_config": {
+        "ckpt": "",
+        "n_samples": 1,
+        "no_clip": false,
+        "cpu": false,
+        "world_size": -1,
+        "n_workers": 4,
+        "epochs": 100
+    }
+} 
